@@ -1,0 +1,83 @@
+.about__title {
+  margin-bottom: 50px;
+}
+
+.about__images {
+  display: inline-block;
+}
+
+.about__img {
+  max-width: 600px;
+  height: 596px;
+}
+
+.about__block {
+  line-height: 1.4;
+  margin-bottom: 48px;
+
+}
+
+.about__content {
+  max-width: 500px;
+  float: right;
+}
+
+.about-text:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+/* ---------- */
+.blockquote {
+  overflow: hidden;
+}
+
+.blockquote__text {
+  position: relative;
+  font-size: 44px;
+  line-height: 1.13636;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  padding-left: 35px;
+}
+
+.blockquote__text:before,
+.blockquote__text:after {
+  content: "";
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background: url("../img/vector/mark.svg") no-repeat;
+  position: absolute;
+}
+
+.blockquote__text:before {
+  left: 0;
+}
+
+.blockquote__text:after {
+  transform: rotate(180deg) translateY(15px);
+}
+
+
+/* ---------------- */
+.figure {
+  float: right;
+}
+
+.figure__img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+}
+
+.figcaption {
+  line-height: 1.4;
+  max-width: 279px;
+  display: inline-block;
+  padding-left: 45px;
+}
+
+/* --------/about---------------- */

@@ -1,0 +1,23 @@
+.reserve__title {
+  margin-bottom: 50px;
+}
+
+.form {
+  font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0px 10px;
+}
+
+.form__list,
+.form__item {
+  display: inline-block;
+}
+
+.form__button {
+  background-color: #fff;
+}
+
+/* --------/reserve----------- */

@@ -1,0 +1,58 @@
+.banner__block {
+  min-height: 823px;
+  position: relative;
+}
+
+.banner__block:after {
+  content: "";
+  display: block;
+  width: 675px;
+  height: 762px;
+  background: url("../img/gameover.png");
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.banner__title {
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 1;
+  letter-spacing: -0.1em;
+  text-transform: uppercase;
+}
+
+.banner__text {
+  font-size: 28px;
+  line-height: 1.78571;
+  padding-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .baner {
+  
+}
+.baner__container{
+  background: url("../img/gameover.png") right 30px bottom 0 / 675px no-repeat;
+  min-height: 823px;
+}
+.baner-title {
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 1;
+  letter-spacing: -0.1em;
+  text-transform: uppercase;
+}
+
+ */
+
+/* --------/header--------------------------- */

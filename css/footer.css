@@ -1,0 +1,78 @@
+.footer__title {
+  margin-bottom: 54px;
+}
+
+/* ------------contacts------ */
+.footer__address {
+  margin-bottom: 39px;
+}
+
+.address__contacts:nth-child(1) {
+  margin-bottom: 38px;
+}
+
+.address__contacts:nth-child(2) {
+  margin-bottom: 11px;
+}
+
+.address__contacts .address__link {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16667;
+  font-style: normal;
+  padding-left: 30px;
+}
+
+.address__contacts:before {
+  content: "";
+  width: 35px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: top;
+  background-repeat: no-repeat;
+}
+
+.address__contacts_bg_cart:before {
+  background-image: url("../img/vector/location.svg");
+}
+
+.address__contacts_bg_tel:before {
+  background-image: url("../img/vector/bx_bxs-phone-call.svg");
+}
+
+.address__contacts_bg_mail:before {
+  background-image: url("../img/vector/mail.svg");
+}
+
+/* ------------------- */
+.social__item {
+  display: inline-block;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 26px;
+}
+
+.social__link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  outline: 1px solid transparent;
+  outline-offset: 3px;
+  border-radius: 50%;
+  transition-property: color, outline-color;
+  transition-duration: 0.3s, 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.social__link:hover {
+  color: #CD06ff;
+}
+
+.social__link:focus {
+  outline-color: #CD06ff;
+}
+
+.social__link:active {
+  color: #840aa3;
+}
