@@ -82,6 +82,10 @@ iframe {
   transform: scale(0);
 }
 
+header {
+  padding-top: 30px;
+}
+
 section,
 footer {
   padding: 50px 0;

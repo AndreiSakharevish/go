@@ -9,6 +9,26 @@
     <title>GO</title>
   </head>
   <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <figure>
+            <img class="header__img" src="img/logo-header.svg" alt="Логотип GO" />
+          </figure>
+          <ul class="header__list">
+            <li><a class="header__link" href="#halls">Залы</a></li>
+            <li><a class="header__link" href="#about">О нас</a></li>
+            <li><a class="header__link" href="#reserve">Бронь</a></li>
+            <li><a class="header__link" href="#reviews">Отзывы</a></li>
+            <li><a class="header__link" href="#contacts">Контакты</a></li>
+          </ul>
+          <div class="call">
+            <a class="call__link" href="#">Заказать звонок</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
     <main>
       <section class="banner">
         <div class="container">
@@ -19,7 +39,7 @@
         </div>
       </section>
 
-      <section class="halls">
+      <section class="halls" id="halls">
         <div class="container">
           <h2 class="halls__title title">Наши залы</h2>
           <ul class="halls__list">
@@ -39,7 +59,7 @@
         </div>
       </section>
 
-      <section class="reserve">
+      <section class="reserve" id="reserve">
         <div class="container">
           <h2 class="reserve__title title">Забронировать</h2>
           <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
@@ -107,7 +127,7 @@
         </div>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <h2 class="about__title title">О нас</h2>
 
@@ -131,7 +151,7 @@
         </div>
       </section>
 
-      <section class="reviews">
+      <section class="reviews" id="reviews">
         <div class="container">
           <h2 class="reviews__title title">Отзывы посетителей</h2>
           <ul class="reviews__list">
@@ -178,7 +198,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="contacts">
       <div class="container">
         <h2 class="footer__title title">Контакты</h2>
 
