@@ -1,6 +1,7 @@
 .header__nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__img {
@@ -22,11 +23,19 @@
 .call:hover {
   color: #d768f3;
 }
+
 .call:focus {
   outline-color: #d768f3;
 }
+
 .call:active {
   color: #c505f5;
+}
+
+.call {
+  border: 3px solid #cd06ff;
+  border-radius: 10px;
+  padding: 12px 32px;
 }
 
 .call__link {
@@ -34,8 +43,4 @@
   font-size: 22px;
   line-height: 1.36364;
   text-transform: uppercase;
-  border: 3px solid #cd06ff;
-  border-radius: 10px;
-  padding: 12px 32px;
-  display: block;
 }
