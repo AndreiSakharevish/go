@@ -1,0 +1,53 @@
+.promo {}
+
+.container {}
+
+.promo__title {
+  max-width: 800px;
+  margin: 0 auto 41px;
+}
+
+.promo__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+}
+
+.promo__item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 0 1 380px;
+  min-height: 228px;
+  padding: 166px 40px 0;
+}
+
+.promo__item_vr {
+  background-image: url("../img/promo/vr.jpg");
+}
+
+.promo__item_audio {
+  background-image: url("../img/promo/audio.jpg");
+}
+
+.promo__item_micro {
+  background-image: url("../img/promo/micro.jpg");
+}
+
+.promo__item_game {
+  background-image: url("../img/promo/game.jpg");
+}
+
+.promo__item_netflix {
+  background-image: url("../img/promo/netflix.jpg");
+}
+
+.promo__item_sony {
+  background-image: url("../img/promo/sony.jpg");
+}
+
+.promo__text {
+  font-weight: 700;
+  line-height: 1.4;
+  max-width: 300px;
+
+}
