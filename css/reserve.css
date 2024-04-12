@@ -82,20 +82,20 @@ input[type="checkbox"] {
 
 /* приставка */
 .set__input,
-.game__input {
+.set__game-input {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
 
 .set__span,
-.game__span {
+.set__game-span {
   position: relative;
   padding-left: 35px;
 }
 
 .set__span:before,
-.game__span:before {
+.set__game-span:before {
   content: '';
   position: absolute;
   top: 0px;
@@ -130,11 +130,11 @@ input[type="checkbox"] {
 
 /*--------------------------------------- настольные игры - Дополнительно*/
 
-.game__span::before {
+.set__game-span::before {
   border-radius: 0%;
 }
 
-.game__input:checked+.game__span::before {
+.set__game-input:checked+.set__game-span::before {
   border-color: #0b76ef;
   background-color: #0b76ef;
 }

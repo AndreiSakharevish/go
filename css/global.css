@@ -93,26 +93,6 @@ footer {
   padding: 50px 0;
 }
 
-/* .wrapper {
-  min-height: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-
-}
-
-.main {
-  flex-grow: 1;
-} */
-
-/*
-Пример контейнера
-
-Если контейнер 1180px по макету,
-то для max-width прибавляем паддинги 30px*2, 
-в итоге 1240px
-Чтобы контент не прижимался к краям экрана
-*/
 
 .container {
   max-width: 1240px;
