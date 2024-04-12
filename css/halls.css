@@ -1,3 +1,7 @@
+.halls {
+  padding-bottom: 95px;
+}
+
 .halls__title {
   margin-bottom: 60px;
 }
@@ -17,7 +21,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-
 }
 
 .halls__item {
@@ -29,7 +32,6 @@
 
 .halls__item_vibes {
   background: url("../img/80vibes.jpg") no-repeat;
-
 }
 
 .halls__item_star {

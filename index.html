@@ -93,7 +93,7 @@
           <h2 class="halls__title title">Наши залы</h2>
           <ul class="halls__list">
             <li class="halls__item halls__item_vibes">
-              <a class="halls__link"  href="#">80's vibes</a>
+              <a class="halls__link" href="#">80's vibes</a>
             </li>
             <li class="halls__item halls__item_star">
               <a class="halls__link" href="#">Star wars</a>
@@ -110,68 +110,83 @@
 
       <section class="reserve" id="reserve">
         <div class="container">
-          <h2 class="reserve__title title">Забронировать</h2>
+          <h2 class="reserve__title title">Забронировать зал просто</h2>
           <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
-            <fieldset>
-              <label> <input type="radio" name="room" value="vibes" />80's vibes </label>
-              <label> <input type="radio" name="room" value="star" />star wars </label>
-              <label> <input type="radio" name="room" value="wild" />wild west </label>
-              <label> <input type="radio" name="room" value="neon" />neon style </label>
+            <fieldset class="reserve__fieldset hall">
+              <legend class="legend legend__title">Выбери зал</legend>
+              <label class="hall__label"> <input class="hall__input" type="radio" name="room" value="vibes" /><span class="hall__span">80's vibes</span> </label>
+              <label class="hall__label"> <input class="hall__input" type="radio" name="room" value="star" /><span class="hall__span">star wars</span> </label>
+              <label class="hall__label"> <input class="hall__input" type="radio" name="room" value="wild" /><span class="hall__span">wild west</span> </label>
+              <label class="hall__label"> <input class="hall__input" type="radio" name="room" value="neon" /><span class="hall__span">neon style</span> </label>
             </fieldset>
+            <div class="form__block">
+              <fieldset class="reserve__fieldset set">
+                <legend class="legend legend__title">Собери набор развлечений</legend>
 
-            <fieldset>
-              <legend>Собери набор развлечений</legend>
+                <div class="set__block">
+                  <fieldset class="set__fieldset">
+                    <legend class="legend legend__subtitle">Приставка:</legend>
+                    <label class="set__label"> <input class="set__input" type="radio" name="console" value="play" /><span class="set__span">PlayStation 5</span></label>
+                    <label class="set__label"> <input class="set__input" type="radio" name="console" value="sega" /><span class="set__span">Sega Mega Drive</span></label>
+                    <label class="set__label"> <input class="set__input" type="radio" name="console" value="xbox" /><span class="set__span">X-box One S</span></label>
+                    <label class="set__label"> <input class="set__input" type="radio" name="console" value="dendy" /><span class="set__span">Dendy</span></label>
+                  </fieldset>
 
-              <fieldset>
-                <legend>Приставка:</legend>
+                  <fieldset class="set__fieldset">
+                    <legend class="legend legend__subtitle">Настольные игры:</legend>
+                    <label class="game__label"><input class="game__input" type="checkbox" name="game" value="jenga" /><span class="game__span">Jenga</span></label>
+                    <label class="game__label"><input class="game__input" type="checkbox" name="game" value="monopoly" /><span class="game__span">Monopoly</span></label>
+                    <label class="game__label"><input class="game__input" type="checkbox" name="game" value="manchkin" /><span class="game__span">Манчкин</span></label>
+                    <label class="game__label"><input class="game__input" type="checkbox" name="game" value="alias" /><span class="game__span">Alias</span></label>
+                  </fieldset>
 
-                <label> <input type="radio" name="console" value="play" />PlayStation</label>
-                <label> <input type="radio" name="console" value="sega" />Sega Mega Drive</label>
-                <label> <input type="radio" name="console" value="xbox" />X-box One S</label>
-                <label> <input type="radio" name="console" value="dendy" />Dendy</label>
+                  <fieldset class="set__fieldset">
+                    <legend class="legend legend__subtitle">Дополнительно:</legend>
+                    <label class="game__label"><input class="game__input" type="checkbox" name="extra" value="karaoke" /><span class="game__span">Караоке</span></label>
+                    <label class="game__label"><input class="game__input" type="checkbox" name="extra" value="vr" /><span class="game__span">VR</span></label>
+                  </fieldset>
+                </div>
               </fieldset>
 
-              <fieldset>
-                <legend>Настольные игры:</legend>
+              <fieldset class="date">
+                <legend class="legend legend__title">Выбери дату и время</legend>
+                <div class="date__block">
+                  <fieldset class="date__fieldset">
+                    <div class="date-time">
+                      <label class="date__label"><input class="date__input" type="text" name="date" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Дата" /></label>
+                      <label class="date__label"><input class="date__input" type="text" name="time" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="Время" /></label>
+                    </div>
+                    <label class="date__label"
+                      ><input class="date__input date__input_w_300" type="text" name="number" onfocus="(this.type='number')" onblur="(this.type='text')" placeholder="Сколько человек"
+                    /></label>
+                  </fieldset>
 
-                <label><input type="checkbox" name="game" value="jenga" />Jenga</label>
-                <label><input type="checkbox" name="game" value="monopoly" />Monopoly</label>
-                <label><input type="checkbox" name="game" value="manchkin" />Манчкин</label>
-                <label><input type="checkbox" name="game" value="alias" />Alias</label>
+                  <fieldset class="date__fieldset">
+                    <p>
+                      <label class="date__label date__label_mb" for="name">Имя</label>
+                      <input class="date__input date__input_w_280" type="text" name="name" id="name" required />
+                    </p>
+                    <p>
+                      <label class="date__label date__label_mb" for="surname">Фамилия</label>
+                      <input class="date__input date__input_w_280" type="text" name="surname" id="surname" required />
+                    </p>
+                  </fieldset>
+                  <fieldset class="date__fieldset">
+                    <p>
+                      <label class="date__label date__label_mb" for="phone">Телефон</label>
+                      <input class="date__input date__input_w_300" type="tel" name="phone" id="phone" required />
+                    </p>
+                    <p>
+                      <label class="date__label date__label_mb" for="email">E-mail</label>
+                      <input class="date__input date__input_w_300" type="email" name="email" id="email" required />
+                    </p>
+                  </fieldset>
+                </div>
               </fieldset>
-
-              <fieldset>
-                <legend>Дополнительно:</legend>
-
-                <label><input type="checkbox" name="extra" value="karaoke" />Караоке</label>
-                <label><input type="checkbox" name="extra" value="vr" />VR</label>
-              </fieldset>
-            </fieldset>
-
-            <fieldset>
-              <legend>Выбери дату и время</legend>
-              <ul class="form__list">
-                <li class="form__item">
-                  <label>Дата*<input type="date" name="date" required /></label>
-                </li>
-                <li class="form__item">
-                  <label>Время*<input type="time" name="time" required /></label>
-                </li>
-                <li class="form__item">
-                  <label>Количество человек*<input type="number" name="number" required /></label>
-                </li>
-
-                <li class="form__item"><label for="name">Имя*</label> <input type="text" name="name" id="name" required /></li>
-                <li class="form__item"><label for="surname">Фамилия*</label> <input type="text" name="surname" id="surname" required /></li>
-                <li class="form__item"><label for="phone">Номер телефона*</label> <input type="tel" name="phone" id="phone" required /></li>
-                <li class="form__item">
-                  <label><input type="checkbox" name="age" value="age" required />Я старше 18 лет</label>
-                </li>
-              </ul>
-            </fieldset>
-
-            <button class="form__button" type="submit">Забронировать</button>
-            <label><input type="checkbox" name="processing" value="processing" required />Согласен на обработку данных</label>
+              <div class="form__btn">
+                <button class="form__button" type="submit">Забронировать</button>
+              </div>
+            </div>
           </form>
         </div>
       </section>

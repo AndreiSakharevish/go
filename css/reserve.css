@@ -1,14 +1,14 @@
+.reserve {
+  background-color: #440f51;
+  padding: 85px 0px 75px 0px;
+}
+
 .reserve__title {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
-.form {
-  font-size: 14px;
-}
-
-input[type="radio"],
 input[type="checkbox"] {
-  margin: 0px 10px;
+  margin-right: 12px;
 }
 
 .form__list,
@@ -16,8 +16,201 @@ input[type="checkbox"] {
   display: inline-block;
 }
 
-.form__button {
-  background-color: #fff;
+.form__block {
+  max-width: 980px;
+  margin: 0 auto;
 }
 
-/* --------/reserve----------- */
+.reserve__fieldset {
+  margin-bottom: 60px;
+}
+
+/* ------------Выбери зал---------- */
+.hall {
+  display: flex;
+  gap: 60px;
+}
+
+.legend {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16667;
+}
+
+.legend__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.legend__subtitle {
+  margin-bottom: 23px;
+}
+
+.hall__label {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.33333;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  border-radius: 8px;
+  background: #fff;
+  flex: 0 1 250px;
+}
+
+.hall__input[type="radio"] {
+  display: none;
+}
+
+.hall__input[type="radio"]:checked+.hall__span {
+  color: #06f306;
+}
+
+/*------------ Собери набор развлечений--------- */
+
+.set__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.set__fieldset {
+  display: flex;
+  flex-direction: column;
+  row-gap: 21px;
+}
+
+/* приставка */
+.set__input,
+.game__input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.set__span,
+.game__span {
+  position: relative;
+  padding-left: 35px;
+}
+
+.set__span:before,
+.game__span:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #CDD1DA;
+  border-radius: 50%;
+  background: #FFF;
+}
+
+.set__span:after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #0364f7;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .5);
+  opacity: 0;
+}
+
+.set__input:checked+.set__span:after {
+  opacity: 1;
+}
+
+.set__input:focus+.set__span:before {
+  box-shadow: 0 0 0 3px rgba(107, 236, 146, 0.7);
+}
+
+/*--------------------------------------- настольные игры - Дополнительно*/
+
+.game__span::before {
+  border-radius: 0%;
+}
+
+.game__input:checked+.game__span::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+}
+
+/* ---------Выбери дату и время----------------------- */
+.date {
+  margin-bottom: 40px;
+}
+
+.date__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.date__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.date__label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14286;
+  display: block;
+}
+
+.date__label_mb {
+  margin-bottom: 6px;
+}
+
+.date-time {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.date__input {
+  display: inline-block;
+  width: 134px;
+  outline: none;
+  height: 52px;
+}
+
+.date__input_w_300 {
+  width: 300px;
+}
+
+.date__input_w_280 {
+  width: 280px;
+}
+
+.date__input::placeholder {
+  font-size: 18px;
+  line-height: 1.55556;
+  color: #211e1e;
+  padding-left: 12px;
+  background: url("../img/arrow.svg") right 19px top 1px no-repeat;
+}
+
+
+/* --------------------кнопка */
+.form__btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__button {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.27273;
+  text-transform: uppercase;
+  color: #6c0287;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 16px 50px;
+}
