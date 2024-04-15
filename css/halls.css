@@ -14,7 +14,7 @@
   color: #fff;
   width: 580px;
   display: inline-block;
-  max-width: 252px;
+  padding: 94px 0;
 }
 
 .halls__list {
@@ -25,9 +25,7 @@
 
 .halls__item {
   flex: 0 1 580px;
-  min-height: 349px;
   text-align: center;
-  padding-top: 94px;
 }
 
 .halls__item_vibes {
@@ -44,6 +42,10 @@
 
 .halls__item_neon {
   background: url("../img/neonstyle.jpg") no-repeat;
+}
+
+.halls__span {
+  display: block;
 }
 
 /* ---------------/halls-------- */

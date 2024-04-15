@@ -12,9 +12,7 @@
     <header class="header">
       <div class="container">
         <nav class="header__nav">
-          <figure>
-            <img class="header__img" src="img/logo-header.svg" alt="Логотип GO" />
-          </figure>
+          <img class="header__img" src="img/logo-header.svg" alt="Логотип GO" />
           <ul class="header__list">
             <li><a class="header__link" href="#halls">Залы</a></li>
             <li><a class="header__link" href="#about">О нас</a></li>
@@ -22,9 +20,7 @@
             <li><a class="header__link" href="#reviews">Отзывы</a></li>
             <li><a class="header__link" href="#contacts">Контакты</a></li>
           </ul>
-          <div class="call">
-            <a class="call__link" href="#">Заказать звонок</a>
-          </div>
+          <button class="header__button" href="#">Заказать звонок</button>
         </nav>
       </div>
     </header>
@@ -46,9 +42,7 @@
                 <p class="desc__text">Новейшая аппаратура</p>
               </div>
             </div>
-            <div class="banner__bottom">
-              <a class="banner__link" href="#reserve">Забронировать</a>
-            </div>
+            <a class="banner__link" href="#reserve">Забронировать</a>
             <div class="banner__arrow">
               <a href="#promo">
                 <svg width="97" height="97" viewbox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,16 +87,16 @@
           <h2 class="halls__title title">Наши залы</h2>
           <ul class="halls__list">
             <li class="halls__item halls__item_vibes">
-              <a class="halls__link" href="#">80's vibes</a>
+              <a class="halls__link" href="#">80's<span class="halls__span">vibes</span></a>
             </li>
             <li class="halls__item halls__item_star">
-              <a class="halls__link" href="#">Star wars</a>
+              <a class="halls__link" href="#">Star<span class="halls__span">wars</span></a>
             </li>
             <li class="halls__item halls__item_wild">
-              <a class="halls__link" href="#">Wild west</a>
+              <a class="halls__link" href="#">Wild<span class="halls__span"> west</span></a>
             </li>
             <li class="halls__item halls__item_neon">
-              <a class="halls__link" href="#">Neon style</a>
+              <a class="halls__link" href="#">Neon<span class="halls__span">style</span></a>
             </li>
           </ul>
         </div>
@@ -157,28 +151,29 @@
                       <label class="date__label"><input class="date__input" type="text" name="time" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="Время" /></label>
                     </div>
                     <label class="date__label"
-                      ><input class="date__input date__input_w_300" type="text" name="number" onfocus="(this.type='number')" onblur="(this.type='text')" placeholder="Сколько человек"
+                      ><input class="date__input" type="text" name="number" onfocus="(this.type='number')" onblur="(this.type='text')" placeholder="Сколько человек"
                     /></label>
                   </fieldset>
 
-                  <fieldset class="date__fieldset">
+                  <fieldset class="date__fieldset date__fieldset_w_280">
                     <p>
                       <label class="date__label date__label_mb" for="name">Имя</label>
-                      <input class="date__input date__input_w_280" type="text" name="name" id="name" required />
+                      <input class="date__input" type="text" name="name" id="name" required />
                     </p>
                     <p>
                       <label class="date__label date__label_mb" for="surname">Фамилия</label>
-                      <input class="date__input date__input_w_280" type="text" name="surname" id="surname" required />
+                      <input class="date__input" type="text" name="surname" id="surname" required />
                     </p>
                   </fieldset>
+                  
                   <fieldset class="date__fieldset">
                     <p>
                       <label class="date__label date__label_mb" for="phone">Телефон</label>
-                      <input class="date__input date__input_w_300" type="tel" name="phone" id="phone" required />
+                      <input class="date__input" type="tel" name="phone" id="phone" required />
                     </p>
                     <p>
                       <label class="date__label date__label_mb" for="email">E-mail</label>
-                      <input class="date__input date__input_w_300" type="email" name="email" id="email" required />
+                      <input class="date__input" type="email" name="email" id="email" required />
                     </p>
                   </fieldset>
                 </div>
@@ -195,23 +190,25 @@
         <div class="container">
           <h2 class="about__title title">О нас</h2>
 
-          <figure class="about__images">
-            <img class="about__img" src="img/about.png" alt="картинки развлечений" />
-          </figure>
-          <div class="about__content">
-            <div class="about__block">
-              <p class="about-text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
-              <p class="about-text">Каждый день мы стараемся создавать для&nbsp;вас&nbsp;самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+         <div class="about__partition">
+            <figure class="about__images">
+              <img class="about__img" src="img/about.png" alt="картинки развлечений" />
+            </figure>
+            <div class="about__content">
+              <div class="about__block">
+                <p class="about-text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
+                <p class="about-text">Каждый день мы стараемся создавать для&nbsp;вас&nbsp;самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+              </div>
+              <blockquote class="blockquote">
+                <p class="blockquote__text">GAME OVER &mdash;это&nbsp;место незабываемых впечатлений</p>
+  
+                <figure class="figure">
+                  <img class="figure__img" src="img/arkadi.jpg" alt="Аркадий Абакшин" />
+                  <figcaption class="figcaption">Аркадий Абакшин, создатель игровой территории GAME OVER</figcaption>
+                </figure>
+              </blockquote>
             </div>
-            <blockquote class="blockquote">
-              <p class="blockquote__text">GAME OVER &mdash;это&nbsp;место незабываемых впечатлений</p>
-
-              <figure class="figure">
-                <img class="figure__img" src="img/arkadi.jpg" alt="Аркадий Абакшин" />
-                <figcaption class="figcaption">Аркадий Абакшин, создатель игровой территории GAME OVER</figcaption>
-              </figure>
-            </blockquote>
-          </div>
+         </div>
         </div>
       </section>
 
@@ -269,9 +266,9 @@
         <div class="footer__block">
           <div class="footer__contacts">
             <address class="footer__address address">
-              <p class="address__contacts address__contacts_bg_cart"><a class="address__link" href="#">г. Москва ул. Аквамарина, 16</a></p>
-              <p class="address__contacts address__contacts_bg_tel"><a class="address__link" href="tel:89509302893">8 (950) 930 - 28 - 93</a></p>
-              <p class="address__contacts address__contacts_bg_mail"><a class="address__link" href="mailto:gameover@gmail.com">GameOver@gmail.com</a></p>
+              <p class="address__link address__contacts address__contacts_bg_cart">г. Москва ул.&nbsp;Аквамарина, 16</p>
+              <a class="address__link address__contacts address__contacts_bg_tel" href="tel:89509302893">8 (950) 930 - 28 - 93</a>
+              <a class="address__link address__contacts address__contacts_bg_mail" href="mailto:gameover@gmail.com">GameOver@gmail.com</a>
             </address>
 
             <ul class="social">
@@ -329,11 +326,10 @@
         </div>
         <div class="copyright">
           <p class="footer__text">© Game Over, 2022</p>
-         <div class="copyright__block">
-          <p class="footer__text">Design by Anastasia Ilina</p>
-          <p class="footer__text">ilina9825@gmail.com</p>
-         </div>
-        
+          <div class="copyright__block">
+            <p class="footer__text">Design by Anastasia Ilina</p>
+            <p class="footer__text">ilina9825@gmail.com</p>
+          </div>
         </div>
       </div>
     </footer>

@@ -9,6 +9,7 @@
 /* ------------contacts------ */
 .footer__address {
   margin-bottom: 39px;
+  max-width: 315px;
 }
 
 .address__contacts:nth-child(1) {
@@ -24,8 +25,9 @@
   font-size: 24px;
   line-height: 1.16667;
   font-style: normal;
-  padding-left: 30px;
+  padding-left: 50px;
   display: inline-block;
+  position: relative;
 }
 
 .address__contacts:before {
@@ -35,6 +37,8 @@
   display: inline-block;
   vertical-align: top;
   background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
 }
 
 .address__contacts_bg_cart:before {
@@ -43,6 +47,7 @@
 
 .address__contacts_bg_tel:before {
   background-image: url("../img/vector/bx_bxs-phone-call.svg");
+
 }
 
 .address__contacts_bg_mail:before {

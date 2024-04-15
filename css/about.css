@@ -14,12 +14,11 @@
 .about__block {
   line-height: 1.4;
   margin-bottom: 48px;
-
 }
 
-.about__content {
-  max-width: 500px;
-  float: right;
+.about__partition {
+  display: flex;
+  gap: 80px;
 }
 
 .about-text:not(:last-child) {
