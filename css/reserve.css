@@ -59,13 +59,25 @@ input[type="checkbox"] {
   padding: 8px 0;
 }
 
+.hall__label:hover {
+  outline: 3px solid #640aa3;
+  background-color: #eadeed;
+}
+
+.hall__label:focus {
+  border: 3px solid #640aa3;
+  background: #fff;
+}
+
+.hall__label:active {
+  outline: 3px solid #fff;
+  background-color: #6c0287;
+}
+
 .hall__input[type="radio"] {
   display: none;
 }
 
-.hall__input[type="radio"]:checked+.hall__span {
-  color: #06f306;
-}
 
 /*------------ Собери набор развлечений--------- */
 
@@ -121,12 +133,17 @@ input[type="checkbox"] {
   opacity: 0;
 }
 
+.set__input:focus {
+  border-radius: 100%;
+  fill: #fff;
+}
+
 .set__input:checked+.set__span:after {
   opacity: 1;
 }
 
 .set__input:focus+.set__span:before {
-  box-shadow: 0 0 0 3px rgba(107, 236, 146, 0.7);
+  border: 1px solid #cd06ff;
 }
 
 /*--------------------------------------- настольные игры - Дополнительно*/
@@ -139,7 +156,9 @@ input[type="checkbox"] {
   border-color: #0b76ef;
   background-color: #0b76ef;
 }
-
+.set__game-input:focus{
+  border: 1px solid #cd06ff;
+}
 /* ---------Выбери дату и время----------------------- */
 .date {
   margin-bottom: 40px;
@@ -188,6 +207,11 @@ input[type="checkbox"] {
   width: 100%;
 }
 
+.date__input:focus {
+  outline: 2px solid #cd06ff;
+  background-color: #fff;
+}
+
 .date__input::placeholder {
   font-size: 18px;
   line-height: 1.55556;
@@ -212,4 +236,18 @@ input[type="checkbox"] {
   background-color: #fff;
   border-radius: 10px;
   padding: 16px 50px;
+}
+
+.form__button:hover {
+  outline: 3px solid #6c0287;
+  background-color: #eadeed;
+}
+
+.form__button:focus {
+  outline: 3px solid #6c0287;
+  background-color: #fff;
+}
+
+.form__button:active {
+  background-color: #eadeed;
 }

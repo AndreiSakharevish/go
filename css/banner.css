@@ -73,6 +73,15 @@
   box-shadow: 0 0 20px 0 #6c0287;
 }
 
+.banner__link:hover,
+.banner__link:focus {
+  background-color: #840aa3;
+}
+
+.banner__link:active {
+  background-color: #640aa3;
+}
+
 /* ----------------------------------- */
 .banner__arrow {
   position: absolute;
@@ -80,4 +89,23 @@
   bottom: 90px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.banner__arrow:hover {
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #fff;
+}
+
+.banner__arrow:focus {
+  border: 1px solid #cd06ff;
+  background-color: rgba(196, 196, 196, 0);
+  stroke-width: 1px;
+  stroke: #fff;
+}
+
+.banner__arrow:active {
+  fill: #cd06ff;
+  stroke-width: 1px;
+  stroke: #cd06ff;
 }

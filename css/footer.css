@@ -76,15 +76,15 @@
 }
 
 .social__link:hover {
-  color: #CD06ff;
+  color:  #eadeed
 }
 
 .social__link:focus {
-  outline-color: #CD06ff;
+  outline-color: #eadeed;
 }
 
 .social__link:active {
-  color: #840aa3;
+  color: #cd06ff;
 }
 
 .footer__block {

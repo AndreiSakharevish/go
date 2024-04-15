@@ -150,9 +150,7 @@
                       <label class="date__label"><input class="date__input" type="text" name="date" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Дата" /></label>
                       <label class="date__label"><input class="date__input" type="text" name="time" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="Время" /></label>
                     </div>
-                    <label class="date__label"
-                      ><input class="date__input" type="text" name="number" onfocus="(this.type='number')" onblur="(this.type='text')" placeholder="Сколько человек"
-                    /></label>
+                    <label class="date__label"><input class="date__input" type="text" name="number" onfocus="(this.type='number')" onblur="(this.type='text')" placeholder="Сколько человек" /></label>
                   </fieldset>
 
                   <fieldset class="date__fieldset date__fieldset_w_280">
@@ -165,7 +163,7 @@
                       <input class="date__input" type="text" name="surname" id="surname" required />
                     </p>
                   </fieldset>
-                  
+
                   <fieldset class="date__fieldset">
                     <p>
                       <label class="date__label date__label_mb" for="phone">Телефон</label>
@@ -190,7 +188,7 @@
         <div class="container">
           <h2 class="about__title title">О нас</h2>
 
-         <div class="about__partition">
+          <div class="about__partition">
             <figure class="about__images">
               <img class="about__img" src="img/about.png" alt="картинки развлечений" />
             </figure>
@@ -201,14 +199,14 @@
               </div>
               <blockquote class="blockquote">
                 <p class="blockquote__text">GAME OVER &mdash;это&nbsp;место незабываемых впечатлений</p>
-  
+
                 <figure class="figure">
                   <img class="figure__img" src="img/arkadi.jpg" alt="Аркадий Абакшин" />
                   <figcaption class="figcaption">Аркадий Абакшин, создатель игровой территории GAME OVER</figcaption>
                 </figure>
               </blockquote>
             </div>
-         </div>
+          </div>
         </div>
       </section>
 
@@ -333,5 +331,12 @@
         </div>
       </div>
     </footer>
+    <script>
+      document.addEventListener('click', (event) => {
+        if (event.target.matches('button')) {
+          event.target.focus();
+        }
+      });
+    </script>
   </body>
 </html>

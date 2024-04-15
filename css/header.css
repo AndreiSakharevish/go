@@ -21,10 +21,6 @@
   text-transform: uppercase;
 }
 
-.header__link:hover {
-  color: #000;
-}
-
 .header__button {
   font-weight: 700;
   font-size: 22px;
@@ -42,7 +38,7 @@
 }
 
 .header__button:focus {
- background-color: #6c0287;
+  background-color: #6c0287;
 }
 
 .header__button:active {
