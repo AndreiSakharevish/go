@@ -83,7 +83,7 @@
 }
 
 /* ----------------------------------- */
-.banner__arrow {
+.arrow {
   position: absolute;
   z-index: 1;
   bottom: 90px;
@@ -91,21 +91,28 @@
   transform: translateX(-50%);
 }
 
-.banner__arrow:hover {
+.arrow__link:hover>svg>rect {
+  stroke: #6c0287;
+  width: 1px;
+}
+
+.arrow__link:hover>svg {
   fill: #fff;
-  stroke-width: 1px;
-  stroke: #fff;
 }
 
-.banner__arrow:focus {
-  border: 1px solid #cd06ff;
-  background-color: rgba(196, 196, 196, 0);
-  stroke-width: 1px;
-  stroke: #fff;
+.arrow__link:focus>svg,
+.arrow__link:active>svg {
+  outline: 1px solid #cd06ff;
+  fill: rgba(196, 196, 196, 0);
 }
 
-.banner__arrow:active {
+.arrow__link:focus>svg>rect,
+.arrow__link:active>svg>rect {
+  stroke: #fff;
+  width: 1px;
+}
+
+.arrow__link:active>svg {
   fill: #cd06ff;
-  stroke-width: 1px;
-  stroke: #cd06ff;
 }
+
