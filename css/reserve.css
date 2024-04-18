@@ -58,12 +58,14 @@ input[type="checkbox"] {
   flex: 0 1 250px;
   padding: 8px 0;
   cursor: pointer;
+  transition-duration: 200ms;
+  transition-property: all;
 }
 
 .hall__input {
   appearance: none;
   position: absolute;
-  
+
 }
 
 .hall__label:hover {
@@ -99,6 +101,8 @@ input[type="checkbox"] {
 .set__input {
   position: absolute;
   appearance: none;
+  transition-duration: 200ms;
+  transition-property: all;
 }
 
 .set__span {
@@ -137,6 +141,7 @@ input[type="checkbox"] {
 .set__game-input {
   position: absolute;
   appearance: none;
+  transition-duration: 200ms;
 }
 
 .set__game-input::before {
@@ -203,6 +208,7 @@ input[type="checkbox"] {
   height: 52px;
   width: 100%;
   padding-left: 20px;
+  transition-duration: 200ms;
 }
 
 .date__input:focus {
@@ -234,6 +240,7 @@ input[type="checkbox"] {
   background-color: #fff;
   border-radius: 10px;
   padding: 16px 50px;
+  transition-duration: 200ms;
 }
 
 .form__button:hover {

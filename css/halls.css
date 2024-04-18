@@ -15,16 +15,21 @@
   width: 580px;
   display: inline-block;
   padding: 94px 0;
+  transition-duration: 200ms;
 }
-.halls__link:hover{
+
+.halls__link:hover {
   color: #6c0287;
 }
-.halls__link:focus{
+
+.halls__link:focus {
   color: #6c0287;
 }
-.halls__link:active{
+
+.halls__link:active {
   color: #640aa3;
 }
+
 .halls__list {
   display: flex;
   flex-wrap: wrap;

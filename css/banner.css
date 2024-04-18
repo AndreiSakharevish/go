@@ -71,6 +71,8 @@
   background-color: #6c0287;
   display: inline-block;
   box-shadow: 0 0 20px 0 #6c0287;
+  transition-duration: 200ms;
+  transition-property: all;
 }
 
 .banner__link:hover,
@@ -89,6 +91,10 @@
   bottom: 90px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.arrow__link {
+  transition-duration: 200ms;
 }
 
 .arrow__link:hover>svg>rect {
@@ -115,4 +121,3 @@
 .arrow__link:active>svg {
   fill: #cd06ff;
 }
-

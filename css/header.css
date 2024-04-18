@@ -19,6 +19,7 @@
   font-size: 22px;
   line-height: 2.27273;
   text-transform: uppercase;
+  transition-duration: 200ms;
 }
 
 .header__button {
@@ -30,14 +31,18 @@
   border: 3px solid #cd06ff;
   border-radius: 10px;
   padding: 12px 32px;
+  transition-duration: 200ms;
 }
-.header__link:hover{
+
+.header__link:hover {
   color: #6c0287;
 }
-.header__link:focus{
+
+.header__link:focus {
   color: #6c0287;
 }
-.header__link:active{
+
+.header__link:active {
   color: #640aa3;
 }
 
