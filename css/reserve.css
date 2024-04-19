@@ -68,11 +68,6 @@ input[type="checkbox"] {
   outline: 1px solid transparent;
 }
 
-.hall__input:checked+.hall__label {
-  outline: 3px solid #fff;
-  background-color: #6c0287;
-}
-
 .hall__label:hover {
   outline: 3px solid #640aa3;
   background-color: #eadeed;
