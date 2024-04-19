@@ -65,7 +65,6 @@ input[type="checkbox"] {
 .hall__input {
   appearance: none;
   position: absolute;
-
 }
 
 .hall__label:hover {
@@ -122,6 +121,20 @@ input[type="checkbox"] {
   background-color: #FFF;
 }
 
+.set__span:after {
+  content: '';
+  position: absolute;
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 14px;
+  height: 14px;
+  border-radius: 10px;
+  background-color: #cd06ff;
+  opacity: 0;
+  transition: .2s;
+}
 
 .set__input:checked+.set__span:after {
   opacity: 1;
@@ -156,6 +169,22 @@ input[type="checkbox"] {
   margin-left: -35px;
 }
 
+.set__game-input:after {
+  content: '';
+  position: absolute;
+  top: 4px;
+    left: -33px;
+    width: 17px;
+    height: 10px;
+  border: 3px solid #cd06ff;
+  border-top: none;
+  border-right: none;
+  opacity: 0;
+  transform: rotate(-45deg);
+}
+.set__game-input:checked:after {
+  opacity: 1
+}
 .set__game-input:focus::before {
   outline: 1px solid #cd06ff;
   outline-offset: 1px;
