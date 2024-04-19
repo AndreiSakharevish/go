@@ -46,6 +46,11 @@ input[type="checkbox"] {
   margin-bottom: 23px;
 }
 
+.hall__input {
+  appearance: none;
+  position: absolute;
+}
+
 .hall__label {
   font-weight: 700;
   font-size: 30px;
@@ -60,11 +65,12 @@ input[type="checkbox"] {
   cursor: pointer;
   transition-duration: 200ms;
   transition-property: all;
+  outline: 1px solid transparent;
 }
 
-.hall__input {
-  appearance: none;
-  position: absolute;
+.hall__input:checked+.hall__label {
+  outline: 3px solid #fff;
+  background-color: #6c0287;
 }
 
 .hall__label:hover {
@@ -145,6 +151,7 @@ input[type="checkbox"] {
   outline-offset: 1px;
 }
 
+
 /*todo------checkbox- настольные игры - Дополнительно*/
 .set__game-label {
   position: relative;
@@ -173,18 +180,20 @@ input[type="checkbox"] {
   content: '';
   position: absolute;
   top: 4px;
-    left: -33px;
-    width: 17px;
-    height: 10px;
+  left: -33px;
+  width: 17px;
+  height: 10px;
   border: 3px solid #cd06ff;
   border-top: none;
   border-right: none;
   opacity: 0;
   transform: rotate(-45deg);
 }
+
 .set__game-input:checked:after {
   opacity: 1
 }
+
 .set__game-input:focus::before {
   outline: 1px solid #cd06ff;
   outline-offset: 1px;
