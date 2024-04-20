@@ -1,0 +1,20 @@
+:root {
+  --main-white: #fff;
+  --main-pur-color: #cd06ff;
+  --main-hov-color: #6c0287;
+  --main-act-color: #640aa3;
+}
+
+.banner {
+--link-color:#6c0287;
+--link-act-color:#840aa3;
+}
+
+.hall{
+  --hall-status-color:#640aa3;
+  --btn-color:#6c0287;
+  --hall-bg-color:#eadeed;
+}
+.footer{
+  --footer-link-col:#eadeed;
+}

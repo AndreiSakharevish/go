@@ -74,18 +74,18 @@
   transition-duration: 0.3s, 0.2s;
   transition-timing-function: ease-in-out;
   transition-duration: 200ms;
- }
+}
 
 .social__link:hover {
-  color:  #eadeed
+  color: var(--footer-link-col);
 }
 
 .social__link:focus {
-  outline-color: #eadeed;
+  outline-color: var(--footer-link-col);
 }
 
 .social__link:active {
-  color: #cd06ff;
+  color: var(--main-pur-color);
 }
 
 .footer__block {

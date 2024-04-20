@@ -44,7 +44,7 @@
 .desc__four,
 .desc__new {
   font-weight: 900;
-  color: #cd06ff;
+  color: var(--main-pur-color);
 }
 
 .desc__four {
@@ -68,20 +68,20 @@
   text-transform: uppercase;
   padding: 25px 69px;
   border-radius: 10px;
-  background-color: #6c0287;
+  background-color: var(--link-color);
   display: inline-block;
-  box-shadow: 0 0 20px 0 #6c0287;
+  box-shadow: 0 0 20px 0 var(--link-color);
   transition-duration: 200ms;
   transition-property: all;
 }
 
 .banner__link:hover,
 .banner__link:focus {
-  background-color: #840aa3;
+  background-color: var(--link-act-color);
 }
 
 .banner__link:active {
-  background-color: #640aa3;
+  background-color: var(--main-act-color);
 }
 
 /* ----------------------------------- */
@@ -98,26 +98,26 @@
 }
 
 .arrow__link:hover>svg>rect {
-  stroke: #6c0287;
+  stroke: var( --main-hov-color);
   width: 1px;
 }
 
 .arrow__link:hover>svg {
-  fill: #fff;
+  fill: var(--main-white);
 }
 
 .arrow__link:focus>svg,
 .arrow__link:active>svg {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--main-pur-color);
   fill: rgba(196, 196, 196, 0);
 }
 
 .arrow__link:focus>svg>rect,
 .arrow__link:active>svg>rect {
-  stroke: #fff;
+  stroke: var(--main-white);
   width: 1px;
 }
 
 .arrow__link:active>svg {
-  fill: #cd06ff;
+  fill: var(--main-pur-color);
 }

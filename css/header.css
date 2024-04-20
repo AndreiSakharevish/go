@@ -27,35 +27,32 @@
   font-size: 22px;
   line-height: 1.36364;
   text-transform: uppercase;
-  color: #fff;
-  border: 3px solid #cd06ff;
+  color: var(--main-white);
+  border: 3px solid var(--main-pur-color);
   border-radius: 10px;
   padding: 12px 32px;
   transition-duration: 200ms;
 }
 
-.header__link:hover {
-  color: #6c0287;
-}
-
+.header__link:hover,
 .header__link:focus {
-  color: #6c0287;
+  color: var(--main-hov-color);
 }
 
 .header__link:active {
-  color: #640aa3;
+  color: var(--main-act-color);
 }
 
 .header__button:hover {
-  border-color: #6c0287;
-  background-color: #6c0287;
+  border-color: var(--main-hov-color);
+  background-color: var(--main-hov-color);
 }
 
 .header__button:focus {
-  background-color: #6c0287;
+  background-color: var(--main-hov-color);
 }
 
 .header__button:active {
   outline: 1px solid #000;
-  background-color: #640aa3;
+  background-color: var(--main-act-color);
 }

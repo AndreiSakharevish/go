@@ -11,23 +11,20 @@
   font-size: 70px;
   line-height: 1.14286;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--main-white);
   width: 580px;
   display: inline-block;
   padding: 94px 0;
   transition-duration: 200ms;
 }
 
-.halls__link:hover {
-  color: #6c0287;
-}
-
+.halls__link:hover,
 .halls__link:focus {
-  color: #6c0287;
+  color: var(--main-hov-color);
 }
 
 .halls__link:active {
-  color: #640aa3;
+  color: var(--main-act-color);
 }
 
 .halls__list {
