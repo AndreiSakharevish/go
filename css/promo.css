@@ -6,7 +6,8 @@
 .promo__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px 20px;
+  gap: 1px 20px;
+  min-height: 566px;
 }
 
 .promo__item {
@@ -16,8 +17,12 @@
   min-height: 228px;
   padding: 166px 40px 0;
   transition-duration: 200ms;
-  }
-
+  align-self: flex-start;
+}
+.promo__item:nth-child(2),
+.promo__item:nth-child(5){
+  align-self: flex-end;
+}
 .promo__item:hover {
   transform: scale(1.1);
 }
