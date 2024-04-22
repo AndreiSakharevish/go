@@ -1,5 +1,5 @@
 .reserve {
-  background-color: #440f51;
+  background-color: var(--backgraund-color);
   padding: 85px 0px 75px 0px;
 }
 
@@ -57,9 +57,9 @@ input[type="checkbox"] {
   line-height: 1.33333;
   text-transform: uppercase;
   text-align: center;
-  color: #000;
+  color: var(--black-color);
   border-radius: 8px;
-  background: #fff;
+  background: var(--white-color);
   flex: 0 1 250px;
   padding: 8px 0;
   cursor: pointer;
@@ -69,18 +69,18 @@ input[type="checkbox"] {
 }
 
 .hall__label:hover {
-  outline: 3px solid #640aa3;
-  background-color: #eadeed;
+  outline: 3px solid var(--purple-color);
+  background-color: var(--secondary-white-color);
 }
 
 .hall__input:focus+.hall__label {
-  outline: 3px solid #640aa3;
-  background-color: #fff;
+  outline: 3px solid var(--purple-color);
+  background-color: var(--white-color);
 }
 
 .hall__input:active+.hall__label {
-  outline: 3px solid #fff;
-  background-color: #6c0287;
+  outline: 3px solid var(--white-color);
+  background-color: var(--darkpurple-color);
 }
 
 /*------------ Собери набор развлечений--------- */
@@ -117,9 +117,9 @@ input[type="checkbox"] {
   left: 0;
   width: 22px;
   height: 22px;
-  border: 1px solid #CDD1DA;
+  border: 1px solid var(--darkwhite-color);
   border-radius: 50%;
-  background-color: #FFF;
+  background-color: var(--white-color);
 }
 
 .set__span:after {
@@ -132,7 +132,7 @@ input[type="checkbox"] {
   width: 14px;
   height: 14px;
   border-radius: 10px;
-  background-color: #cd06ff;
+  background-color: var(--lightpurple-color);
   opacity: 0;
   transition: .2s;
 }
@@ -142,7 +142,7 @@ input[type="checkbox"] {
 }
 
 .set__input:focus+.set__span:before {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--lightpurple-color);
   outline-offset: 1px;
 }
 
@@ -167,7 +167,7 @@ input[type="checkbox"] {
   display: block;
   width: 22px;
   height: 22px;
-  background-color: #fff;
+  background-color: var(--white-color);
   margin-left: -35px;
 }
 
@@ -178,7 +178,7 @@ input[type="checkbox"] {
   left: -33px;
   width: 17px;
   height: 10px;
-  border: 3px solid #cd06ff;
+  border: 3px solid var(--lightpurple-color);
   border-top: none;
   border-right: none;
   opacity: 0;
@@ -190,7 +190,7 @@ input[type="checkbox"] {
 }
 
 .set__game-input:focus::before {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--lightpurple-color);
   outline-offset: 1px;
 }
 
@@ -245,8 +245,8 @@ input[type="checkbox"] {
 }
 
 .date__input:focus {
-  border: 2px solid #cd06ff;
-  background-color: #fff;
+  border: 2px solid var(--lightpurple-color);
+  background-color: var(--white-color);
 }
 
 .date__input::placeholder {
@@ -269,23 +269,23 @@ input[type="checkbox"] {
   font-size: 22px;
   line-height: 1.27273;
   text-transform: uppercase;
-  color: #6c0287;
-  background-color: #fff;
+  color: var(--darkpurple-color);
+  background-color: var(--white-color);
   border-radius: 10px;
   padding: 16px 50px;
   transition-duration: 200ms;
 }
 
 .form__button:hover {
-  outline: 3px solid #6c0287;
-  background-color: #eadeed;
+  outline: 3px solid var(--darkpurple-color);
+  background-color: var(--secondary-white-color);
 }
 
 .form__button:focus {
-  outline: 3px solid #6c0287;
-  background-color: #fff;
+  outline: 3px solid var(--darkpurple-color);
+  background-color: var(--white-color);
 }
 
 .form__button:active {
-  background-color: #eadeed;
+  background-color: var(--secondary-white-color);
 }

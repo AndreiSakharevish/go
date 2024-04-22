@@ -27,35 +27,32 @@
   font-size: 22px;
   line-height: 1.36364;
   text-transform: uppercase;
-  color: #fff;
-  border: 3px solid #cd06ff;
+  color: var(--white-color);
+  border: 3px solid var(--lightpurple-color);
   border-radius: 10px;
   padding: 12px 32px;
   transition-duration: 200ms;
 }
 
-.header__link:hover {
-  color: #6c0287;
-}
-
+.header__link:hover,
 .header__link:focus {
-  color: #6c0287;
+  color: var(--darkpurple-color);
 }
 
 .header__link:active {
-  color: #640aa3;
+  color: var(--purple-color);
 }
 
 .header__button:hover {
-  border-color: #6c0287;
-  background-color: #6c0287;
+  border-color: var(--darkpurple-color);
+  background-color: var(--darkpurple-color);
 }
 
 .header__button:focus {
-  background-color: #6c0287;
+  background-color: var(--darkpurple-color);
 }
 
 .header__button:active {
   outline: 1px solid #000;
-  background-color: #640aa3;
+  background-color: var(--purple-color);
 }

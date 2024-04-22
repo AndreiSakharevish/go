@@ -11,7 +11,7 @@
   font-size: 70px;
   line-height: 1.14286;
   text-transform: uppercase;
-  color: #fff;
+  color: var( --white-color);
   width: 580px;
   display: inline-block;
   padding: 94px 0;
@@ -19,15 +19,15 @@
 }
 
 .halls__link:hover {
-  color: #6c0287;
+  color: var( --darkpurple-color);
 }
 
 .halls__link:focus {
-  color: #6c0287;
+  color: var( --darkpurple-color);
 }
 
 .halls__link:active {
-  color: #640aa3;
+  color: var(--purple-color);
 }
 
 .halls__list {
