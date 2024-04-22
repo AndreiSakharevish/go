@@ -44,7 +44,11 @@
 .desc__four,
 .desc__new {
   font-weight: 900;
+<<<<<<< HEAD
   color: var(--lightpurple-color);
+=======
+  color: var(--main-pur-color);
+>>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
 }
 
 .desc__four {
@@ -68,20 +72,34 @@
   text-transform: uppercase;
   padding: 25px 69px;
   border-radius: 10px;
+<<<<<<< HEAD
   background-color: var( --darkpurple-color);
   display: inline-block;
   box-shadow: 0 0 20px 0 var( --darkpurple-color);
+=======
+  background-color: var(--link-color);
+  display: inline-block;
+  box-shadow: 0 0 20px 0 var(--link-color);
+>>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
   transition-duration: 200ms;
   transition-property: all;
 }
 
 .banner__link:hover,
 .banner__link:focus {
+<<<<<<< HEAD
   background-color: var(--secondary-pur-color);
 }
 
 .banner__link:active {
   background-color: var(--purple-color);
+=======
+  background-color: var(--link-act-color);
+}
+
+.banner__link:active {
+  background-color: var(--main-act-color);
+>>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
 }
 
 /* ----------------------------------- */
@@ -98,26 +116,47 @@
 }
 
 .arrow__link:hover>svg>rect {
+<<<<<<< HEAD
   stroke: var(--darkpurple-color);
+=======
+  stroke: var( --main-hov-color);
+>>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
   width: 1px;
 }
 
 .arrow__link:hover>svg {
+<<<<<<< HEAD
   fill: var(--white-color);
+=======
+  fill: var(--main-white);
+>>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
 }
 
 .arrow__link:focus>svg,
 .arrow__link:active>svg {
+<<<<<<< HEAD
   outline: 1px solid var(--lightpurple-color);
   fill: var( --lightdark-color);
+=======
+  outline: 1px solid var(--main-pur-color);
+  fill: rgba(196, 196, 196, 0);
+>>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
 }
 
 .arrow__link:focus>svg>rect,
 .arrow__link:active>svg>rect {
+<<<<<<< HEAD
   stroke: var(--white-color);
+=======
+  stroke: var(--main-white);
+>>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
   width: 1px;
 }
 
 .arrow__link:active>svg {
+<<<<<<< HEAD
   fill: var(--lightpurple-color);
+=======
+  fill: var(--main-pur-color);
+>>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
 }
