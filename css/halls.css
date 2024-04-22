@@ -11,18 +11,13 @@
   font-size: 70px;
   line-height: 1.14286;
   text-transform: uppercase;
-<<<<<<< HEAD
   color: var( --white-color);
-=======
-  color: var(--main-white);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
   width: 580px;
   display: inline-block;
   padding: 94px 0;
   transition-duration: 200ms;
 }
 
-<<<<<<< HEAD
 .halls__link:hover {
   color: var( --darkpurple-color);
 }
@@ -33,15 +28,6 @@
 
 .halls__link:active {
   color: var(--purple-color);
-=======
-.halls__link:hover,
-.halls__link:focus {
-  color: var(--main-hov-color);
-}
-
-.halls__link:active {
-  color: var(--main-act-color);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
 }
 
 .halls__list {

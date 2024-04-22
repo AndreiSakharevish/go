@@ -1,5 +1,4 @@
 :root {
-<<<<<<< HEAD
   --white-color: #fff;
   --black-color: #000;
   --lightpurple-color: #cd06ff;
@@ -10,24 +9,4 @@
   --darkwhite-color: #CDD1DA;
   --lightdark-color: #c4c4c400;
   --backgraund-color: #440f51;
-=======
-  --main-white: #fff;
-  --main-pur-color: #cd06ff;
-  --main-hov-color: #6c0287;
-  --main-act-color: #640aa3;
-}
-
-.banner {
---link-color:#6c0287;
---link-act-color:#840aa3;
-}
-
-.hall{
-  --hall-status-color:#640aa3;
-  --btn-color:#6c0287;
-  --hall-bg-color:#eadeed;
-}
-.footer{
-  --footer-link-col:#eadeed;
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
 }

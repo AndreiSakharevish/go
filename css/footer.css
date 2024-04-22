@@ -77,7 +77,6 @@
 }
 
 .social__link:hover {
-<<<<<<< HEAD
   color: var( --secondary-white-color);
 }
 
@@ -87,17 +86,6 @@
 
 .social__link:active {
   color: var(--lightpurple-color);
-=======
-  color: var(--footer-link-col);
-}
-
-.social__link:focus {
-  outline-color: var(--footer-link-col);
-}
-
-.social__link:active {
-  color: var(--main-pur-color);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
 }
 
 .footer__block {

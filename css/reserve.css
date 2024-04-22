@@ -59,11 +59,7 @@ input[type="checkbox"] {
   text-align: center;
   color: var(--black-color);
   border-radius: 8px;
-<<<<<<< HEAD
   background: var(--white-color);
-=======
-  background-color: var( --main-white);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
   flex: 0 1 250px;
   padding: 8px 0;
   cursor: pointer;
@@ -73,7 +69,6 @@ input[type="checkbox"] {
 }
 
 .hall__label:hover {
-<<<<<<< HEAD
   outline: 3px solid var(--purple-color);
   background-color: var(--secondary-white-color);
 }
@@ -86,20 +81,6 @@ input[type="checkbox"] {
 .hall__input:active+.hall__label {
   outline: 3px solid var(--white-color);
   background-color: var(--darkpurple-color);
-=======
-  outline: 3px solid var(--hall-status-color);
-  background-color: var(--hall-bg-color);
-}
-
-.hall__input:focus+.hall__label {
-  outline: 3px solid var(--hall-status-color);
-  background-color: var(--main-white);
-}
-
-.hall__input:active+.hall__label {
-  outline: 3px solid var(--main-white);
-  background-color: #6c0287;
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
 }
 
 /*------------ Собери набор развлечений--------- */
@@ -138,11 +119,7 @@ input[type="checkbox"] {
   height: 22px;
   border: 1px solid var(--darkwhite-color);
   border-radius: 50%;
-<<<<<<< HEAD
   background-color: var(--white-color);
-=======
-  background-color: var(--main-white);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
 }
 
 .set__span:after {
@@ -155,11 +132,7 @@ input[type="checkbox"] {
   width: 14px;
   height: 14px;
   border-radius: 10px;
-<<<<<<< HEAD
   background-color: var(--lightpurple-color);
-=======
-  background-color: var(--main-pur-color);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
   opacity: 0;
   transition: .2s;
 }
@@ -169,11 +142,7 @@ input[type="checkbox"] {
 }
 
 .set__input:focus+.set__span:before {
-<<<<<<< HEAD
   outline: 1px solid var(--lightpurple-color);
-=======
-  outline: 1px solid var(--main-pur-color);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
   outline-offset: 1px;
 }
 
@@ -198,11 +167,7 @@ input[type="checkbox"] {
   display: block;
   width: 22px;
   height: 22px;
-<<<<<<< HEAD
   background-color: var(--white-color);
-=======
-  background-color: var(--main-white);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
   margin-left: -35px;
 }
 
@@ -213,11 +178,7 @@ input[type="checkbox"] {
   left: -33px;
   width: 17px;
   height: 10px;
-<<<<<<< HEAD
   border: 3px solid var(--lightpurple-color);
-=======
-  border: 3px solid var(--main-pur-color);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
   border-top: none;
   border-right: none;
   opacity: 0;
@@ -229,11 +190,7 @@ input[type="checkbox"] {
 }
 
 .set__game-input:focus::before {
-<<<<<<< HEAD
   outline: 1px solid var(--lightpurple-color);
-=======
-  outline: 1px solid var(--main-pur-color);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
   outline-offset: 1px;
 }
 
@@ -288,13 +245,8 @@ input[type="checkbox"] {
 }
 
 .date__input:focus {
-<<<<<<< HEAD
   border: 2px solid var(--lightpurple-color);
   background-color: var(--white-color);
-=======
-  border: 2px solid var(--main-pur-color);
-  background-color: var(--main-white);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
 }
 
 .date__input::placeholder {
@@ -317,20 +269,14 @@ input[type="checkbox"] {
   font-size: 22px;
   line-height: 1.27273;
   text-transform: uppercase;
-<<<<<<< HEAD
   color: var(--darkpurple-color);
   background-color: var(--white-color);
-=======
-  color: var(--btn-color);
-  background-color: var(--main-white);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
   border-radius: 10px;
   padding: 16px 50px;
   transition-duration: 200ms;
 }
 
 .form__button:hover {
-<<<<<<< HEAD
   outline: 3px solid var(--darkpurple-color);
   background-color: var(--secondary-white-color);
 }
@@ -342,17 +288,4 @@ input[type="checkbox"] {
 
 .form__button:active {
   background-color: var(--secondary-white-color);
-=======
-  outline: 3px solid var( --main-hov-color);
-  background-color: var(--hall-bg-color);
-}
-
-.form__button:focus {
-  outline: 3px solid var( --main-hov-color);
-  background-color: var( --main-white);
-}
-
-.form__button:active {
-  background-color: var(--hall-bg-color);
->>>>>>> 5e558e4815d84ed1f8e5e83a74c7b0eca0feef51
 }
