@@ -1,0 +1,54 @@
+.room__title {
+  margin-bottom: 40px;
+}
+
+.room__link {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--white-color);
+  width: 100%;
+  display: inline-block;
+  padding: 78px 0;
+  transition-duration: 200ms;
+}
+
+.room__link:hover {
+  color: var(--darkpurple-color);
+}
+
+.room__link:focus {
+  color: var(--darkpurple-color);
+}
+
+.room__link:active {
+  color: var(--purple-color);
+}
+
+.room__list {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.room__item {
+  flex: 0 1 380px;
+  text-align: center;
+}
+
+.room__link_wild {
+  background: url("../img/room/wildwest.jpg") 50% / cover no-repeat;
+}
+
+.room__link_star {
+  background: url("../img/room/starwars.jpg") 50% / cover no-repeat;
+}
+
+.room__link_neon {
+  background: url("../img/room/neonstyle.jpg") 50% / cover no-repeat;
+}
+
+.room__span {
+  display: block;
+}
