@@ -1,0 +1,41 @@
+.available-room {}
+
+.container {}
+
+.available-room__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.available-room__content {
+  display: flex;
+  column-gap: 80px;
+  align-items: center;
+}
+
+.available-room__picture {
+  max-width: 600px;
+}
+
+.available-room__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.available-room__block {
+  max-width: 500px;
+}
+
+.available-room__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.available-room__text:not(:last-child) {
+  margin-bottom: 15px;
+}
