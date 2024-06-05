@@ -93,9 +93,11 @@
   justify-content: space-between;
   margin-bottom: 156px;
 }
-
-.footer__img {
+.footer__picture{
   max-width: 680px;
+}
+.footer__img {
+  width: 100%;
   object-fit: cover;
 }
 
