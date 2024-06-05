@@ -63,7 +63,79 @@
   font-size: 22px;
   line-height: 1.27273;
 }
-.goto::before{
+
+.goto::before {
   content: url('../img/vector/Arrows.svg');
   padding: 0px 10px 0px 0px;
+}
+
+/* ----------------------------- */
+@media (max-width: 1110px) {
+  .header-room__nav {
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+
+  .header-room__img {
+    max-width: 87px;
+  }
+
+  .header-room__list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .header-room__link {
+    font-size: 18px;
+    line-height: 1.22222;
+  }
+
+  .header-room__button {
+    font-size: 18px;
+    line-height: 1.33333;
+    padding: 10px 26px;
+  }
+}
+
+@media (max-width: 880px) {
+  .goto {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+
+  .goto::before {
+    vertical-align: middle;
+  }
+
+  .header-room__list {
+    display: none;
+  }
+
+  .header-room__burger {
+    position: relative;
+    /* border-radius: 2px; */
+    width: 54px;
+    height: 29px;
+    /* background-color: var(--darkpurple-color); */
+  }
+
+  .header-room__burger span {
+    position: absolute;
+    border-radius: 2px;
+    width: 54px;
+    height: 5px;
+    background-color: var(--darkpurple-color);
+    left: 0;
+    top: 0;
+  }
+
+  .header-room__burger span:nth-child(2) {
+    transform: translateY(12px);
+  }
+
+  .header-room__burger span:nth-child(3) {
+    width: 31px;
+    height: 5px;
+    transform: translateY(24px);
+  }
 }
