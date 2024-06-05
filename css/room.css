@@ -36,17 +36,20 @@
   flex: 0 1 380px;
   text-align: center;
 }
-
+.room__link_vibes{
+  background: url("../img/room/vibes.png") 50% / cover no-repeat; 
+  padding: 97px 0;
+}
 .room__link_wild {
-  background: url("../img/room/wildwest.jpg") 50% / cover no-repeat;
+  background: url("../img/room/wildwest.png") 50% / cover no-repeat;
 }
 
 .room__link_star {
-  background: url("../img/room/starwars.jpg") 50% / cover no-repeat;
+  background: url("../img/room/starwars.png") 50% / cover no-repeat;
 }
 
 .room__link_neon {
-  background: url("../img/room/neonstyle.jpg") 50% / cover no-repeat;
+  background: url("../img/room/neonstyle.png") 50% / cover no-repeat;
 }
 
 .room__span {

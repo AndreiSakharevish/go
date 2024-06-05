@@ -1,17 +1,26 @@
-.banner-room {}
-
 .banner-room__title {
   font-weight: 700;
   font-size: 90px;
   line-height: 0.88889;
   text-transform: uppercase;
   text-align: center;
-  background: url('../img/room/vibes80s.png') 50% / cover no-repeat;
   padding-top: 335px;
   padding-bottom: 335px;
   margin-bottom: 100px;
 }
 
+.banner-room__title_vibes {
+  background: url('../img/room/vibes80s.png') 50% / cover no-repeat;
+}
+.banner-room__title_star{
+  background: url('../img/room/star.png') 50% / cover no-repeat;
+}
+.banner-room__title_wild{
+  background: url('../img/room/wild_west.png') 50% / cover no-repeat;
+}
+.banner-room__title_neon{
+  background: url('../img/room/neon_style.png') 50% / cover no-repeat;
+}
 .banner-room__text {
   font-size: 24px;
   line-height: 1.5;
