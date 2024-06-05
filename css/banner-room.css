@@ -1,3 +1,7 @@
+.banner-room {
+  padding-top: 10px;
+}
+
 .banner-room__title {
   font-weight: 700;
   font-size: 90px;
@@ -36,6 +40,10 @@
 
 /* ------------------------ */
 @media (max-width: 1024px) {
+  .banner-room {
+    padding-bottom: 35px;
+  }
+
   .banner-room__title {
     padding-top: 277px;
     padding-bottom: 277px;
@@ -45,5 +53,42 @@
   .banner-room__text {
     font-size: 20px;
     max-width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-room {
+    padding-bottom: 30px;
+  }
+  .banner-room__title {
+    padding-top: 165px;
+    padding-bottom: 165px;
+    margin-bottom: 60px;
+    font-size: 60px;
+    line-height: 1.2;
+  }
+
+  .banner-room__text {
+    font-size: 16px;
+    max-width: 688px;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner-room {
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+  .banner-room__title {
+    padding-top: 66px;
+    padding-bottom: 66px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .banner-room__text {
+    font-size: 16px;
+    max-width: 280px;
   }
 }

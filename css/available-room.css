@@ -1,5 +1,5 @@
 .available-room__title {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .available-room__content {
@@ -29,4 +29,87 @@
 
 .available-room__text:not(:last-child) {
   margin-bottom: 15px;
+}
+
+/* -------------- */
+@media (max-width: 1024px) {
+  .available-room {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .available-room__title {
+    margin-bottom: 36px;
+  }
+
+  .available-room__content {
+    column-gap: 30px;
+  }
+
+  .available-room__picture {
+    max-width: 461px;
+  }
+
+  .available-room__block {
+    max-width: 413px;
+  }
+
+  .available-room__text {
+    font-size: 18px;
+    line-height: 1.55556;
+  }
+}
+
+@media (max-width: 768px) {
+  .available-room {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .available-room__title {
+    margin-bottom: 30px;
+  }
+
+  .available-room__content {
+    column-gap: 46px;
+  }
+
+  .available-room__picture {
+    max-width: 329px;
+  }
+
+  .available-room__block {
+    max-width: 313px;
+  }
+
+  .available-room__text {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+}
+
+@media (max-width: 400px) {
+  .available-room {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .available-room__title {
+    margin-bottom: 15px;
+  }
+
+  .available-room__content {
+    flex-wrap: wrap;
+    row-gap: 15px;
+  }
+
+  .available-room__picture,
+  .available-room__block {
+    max-width: 280px;
+  }
+
+  .available-room__text {
+    font-size: 12px;
+    line-height: 1.33333;
+  }
 }
