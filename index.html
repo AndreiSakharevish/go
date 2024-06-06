@@ -149,13 +149,15 @@
 
               <fieldset class="date">
                 <legend class="legend legend__title">Выбери дату и время</legend>
+
+<div class="date__orige">
                 <div class="date__block">
                   <fieldset class="date__fieldset">
                     <div class="date-time">
-                      <label class="date__label"><input class="date__input" type="text" name="date" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Дата" /></label>
-                      <label class="date__label"><input class="date__input" type="text" name="time" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="Время" /></label>
+                      <label class="date__label date__label_w"><input class="date__input" type="text" name="date" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Дата" /></label>
+                      <label class="date__label date__label_w"><input class="date__input" type="text" name="time" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="Время" /></label>
                     </div>
-                    <label class="date__label"><input class="date__input" type="text" name="number" onfocus="(this.type='number')" onblur="(this.type='text')" placeholder="Сколько человек" /></label>
+                    <label class="date__label date__label_wdth"><input class="date__input" type="text" name="number" onfocus="(this.type='number')" onblur="(this.type='text')" placeholder="Сколько человек" /></label>
                   </fieldset>
 
                   <fieldset class="date__fieldset date__fieldset_w_280">
@@ -180,6 +182,42 @@
                     </p>
                   </fieldset>
                 </div>
+              </div>
+
+                <div class="date__duble">
+                <div class="date__block">
+                  <div class="date__fieldset">
+                    <div class="date-time">
+                      <label class="date__label date__label_w"><input class="date__input" type="text" name="date" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Дата" /></label>
+                      <label class="date__label date__label_w"><input class="date__input" type="text" name="time" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="Время"/></label>
+                    </div>
+                    <p>
+                      <label class="date__label date__label_mb" for="name">Имя</label>
+                      <input class="date__input" type="text" name="name" id="name" required />
+                    </p>
+                    <p>
+                      <label class="date__label date__label_mb" for="surname">Фамилия</label>
+                      <input class="date__input" type="text" name="surname" id="surname" required />
+                    </p>
+                  </div>
+
+                  <div class="date__fieldset">
+                    <p>
+                      <label class="date__label date__label_wdth"
+                        ><input class="date__input" type="text" name="number" onfocus="(this.type='number')" onblur="(this.type='text')" placeholder="Сколько человек"
+                      /></label>
+                    </p>
+                    <p>
+                      <label class="date__label date__label_mb" for="phone">Телефон</label>
+                      <input class="date__input" type="tel" name="phone" id="phone" required />
+                    </p>
+                    <p>
+                      <label class="date__label date__label_mb" for="email">E-mail</label>
+                      <input class="date__input" type="email" name="email" id="email" required />
+                    </p>
+                  </div>
+                </div>
+              </div>
               </fieldset>
               <div class="form__btn">
                 <button class="form__button" type="submit">Забронировать</button>

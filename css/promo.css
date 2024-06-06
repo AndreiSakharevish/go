@@ -15,14 +15,27 @@
   background-size: cover;
   flex: 0 1 380px;
   min-height: 228px;
-  padding: 166px 40px 0;
   transition-duration: 200ms;
   align-self: flex-start;
 }
+
+.promo__text {
+  font-weight: 700;
+  line-height: 1.4;
+  max-width: 300px;
+  padding: 166px 40px 0;
+}
+
 .promo__item:nth-child(2),
-.promo__item:nth-child(5){
+.promo__item:nth-child(5) {
   align-self: flex-end;
 }
+
+.promo__item:nth-child(2),
+.promo__item:nth-child(5) {
+  align-self: flex-end;
+}
+
 .promo__item:hover {
   transform: scale(1.1);
 }
@@ -51,8 +64,78 @@
   background-image: url("../img/promo/sony.jpg");
 }
 
-.promo__text {
-  font-weight: 700;
-  line-height: 1.4;
-  max-width: 300px;
+
+
+/* ------------- */
+@media (max-width: 1260px) {
+  .promo {
+    padding-top: 42px;
+    padding-bottom: 35px;
+  }
+
+  .promo__title {
+    max-width: 660px;
+    margin-bottom: 36px;
+  }
+
+  .promo__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 22px;
+    min-height: 426px;
+  }
+
+  .promo__item {
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex: 0 1 287px;
+    min-height: 172px;
+
+    transition-duration: 200ms;
+    align-self: flex-start;
+  }
+
+  .promo__text {
+    font-size: 20px;
+    line-height: 1.1;
+    max-width: 247px;
+    padding: 101px 14px 0;
+  }
 }
+
+@media (max-width: 768px) {
+  .promo {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .promo__title {
+    font-size: 24px;
+    line-height: 1.5;
+    max-width: 528px;
+    margin-bottom: 30px;
+  }
+
+  .promo__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .promo__item {
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex: 0 1 324px;
+    min-height: 200px;
+
+    transition-duration: 200ms;
+    align-self: flex-start;
+  }
+
+  .promo__text {
+       max-width: 292px;
+    padding: 133px 14px 0;
+}
+}
+
+@media (max-width: 320px) {}

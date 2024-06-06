@@ -125,9 +125,6 @@
 
 /* ---------------- */
 @media (max-width: 1085px) {
-  .container {
-    padding: 0 60px;
-  }
   .banner {
     padding-top: 30px;
     padding-bottom: 41px;

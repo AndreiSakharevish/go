@@ -289,3 +289,207 @@ input[type="checkbox"] {
 .form__button:active {
   background-color: var(--secondary-white-color);
 }
+
+.date__duble {
+  display: none;
+}
+
+/* ------------------ */
+@media (max-width: 1024px) {
+  .reserve {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .reserve__title {
+    margin-bottom: 25px;
+  }
+
+  .legend__title {
+    margin-bottom: 26px;
+  }
+
+  .hall {
+    gap: 40px;
+  }
+
+  .hall__label {
+    font-size: 20px;
+    line-height: 1.2;
+    flex: 0 1 180px;
+    padding: 10px 0;
+  }
+
+  .form__button {
+    font-size: 18px;
+    line-height: 1.33333;
+    padding: 13px 46px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reserve {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .reserve__title {
+    margin-bottom: 40px;
+  }
+
+  .legend__title {
+    margin-bottom: 30px;
+  }
+
+  .hall__label {
+    font-size: 16px;
+    line-height: 1.25;
+    flex: 0 1 150px;
+    padding: 9px 0px;
+  }
+
+  .hall {
+    gap: 29px;
+  }
+
+  .reserve__fieldset {
+    margin-bottom: 29px;
+  }
+
+  .set__block {
+    gap: 32px;
+  }
+
+  .form__button {
+    font-size: 18px;
+    line-height: 1.33333;
+    padding: 13px 46px;
+  }
+
+  .date__block {
+    display: block;
+  }
+
+  .date__fieldset {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .date-time {
+    gap: 14px;
+  }
+
+  .date__orige {
+    display: none;
+  }
+
+  .date__duble {
+    display: block;
+  }
+
+
+  .date__block {
+    display: flex;
+    align-items: start;
+  }
+
+  .date__fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date-time {
+    margin-bottom: 0;
+  }
+
+  .date__input {
+    padding-left: 0;
+  }
+
+  .date__input::placeholder {
+    font-size: 18px;
+  }
+
+  .form__button {
+    font-size: 22px;
+    line-height: 1.27273;
+    padding: 16px 50px;
+  }
+}
+
+
+@media (max-width: 555px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .reserve {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .reserve__title {
+    margin-bottom: 13px;
+  }
+
+  .legend__title {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.28571;
+  }
+
+  .legend__subtitle {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.28571;
+  }
+
+  .set__span {
+    font-size: 16px;
+  }
+
+  .set__game-label {
+    font-size: 16px;
+  }
+
+  .set__block {
+    flex-direction: column;
+    row-gap: 25px;
+  }
+  .date__duble {
+    display: none;
+}
+.date__orige {
+  display: block;
+}
+.date__fieldset_w_280{
+  margin-bottom: 35px;
+}
+.date {
+  margin-bottom: 35px;
+}
+  .hall__label {
+    font-size: 14px;
+    line-height: 1.28571;
+    flex: 0 1 130px;
+    padding: 8px 0px;
+  }
+
+  .hall {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .reserve__fieldset {
+    margin-bottom: 29px;
+  }
+
+
+
+  .form__button {
+    font-size: 18px;
+    line-height: 1.44444;
+    padding: 17px 59px;
+  }
+
+}
