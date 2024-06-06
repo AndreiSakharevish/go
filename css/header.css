@@ -57,3 +57,44 @@
   background-color: var(--purple-color);
 }
 
+@media (max-width: 1130px) {
+  .header__nav {
+    gap: 20px;
+  }
+
+  .header__img {
+    max-width: 87px;
+  }
+
+  .header__list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .header__link {
+    font-size: 18px;
+    line-height: 1.22222;
+  }
+
+  .header__button {
+    font-size: 18px;
+    line-height: 1.33333;
+    padding: 10px 26px;
+  }
+}
+
+@media (max-width: 950px) {
+  .header__list {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__button {
+    display: none;
+  }
+
+  .header__img {
+    max-width: 66px;
+  }
+}
