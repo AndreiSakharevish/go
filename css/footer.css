@@ -92,6 +92,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 156px;
+  column-gap: 10px;
 }
 
 .footer__picture {

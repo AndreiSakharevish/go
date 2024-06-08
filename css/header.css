@@ -4,12 +4,16 @@
   align-items: center;
   gap: 20px;
 }
-
+.header__picture{
+  flex: 0 1 120px;
+}
 .header__img {
-  max-width: 120px;
+ width: 100%;
   object-fit: cover;
 }
-
+.header-room__burger{
+  display: none;
+}
 .header__list {
   display: flex;
   gap: 40px;
@@ -59,7 +63,7 @@
 
 @media (max-width: 1130px) {
   .header__nav {
-    gap: 20px;
+    gap: 5px;
   }
 
   .header__img {
@@ -83,9 +87,12 @@
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 880px) {
   .header__list {
     display: none;
+  }
+  .header-room__burger{
+    display: block;
   }
 }
 

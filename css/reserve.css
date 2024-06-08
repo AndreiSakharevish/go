@@ -147,7 +147,7 @@ input[type="checkbox"] {
 }
 
 
-/*todo------checkbox- настольные игры - Дополнительно*/
+/*------checkbox- настольные игры - Дополнительно*/
 .set__game-label {
   position: relative;
   margin-left: 35px;
@@ -290,9 +290,9 @@ input[type="checkbox"] {
   background-color: var(--secondary-white-color);
 }
 
-.date__duble {
+/* .date__duble {
   display: none;
-}
+} */
 
 /* ------------------ */
 @media (max-width: 1024px) {
@@ -333,6 +333,10 @@ input[type="checkbox"] {
     padding-bottom: 50px;
   }
 
+  .date__block {
+    display: block;
+  }
+
   .reserve__title {
     margin-bottom: 40px;
   }
@@ -366,40 +370,35 @@ input[type="checkbox"] {
     padding: 13px 46px;
   }
 
-  .date__block {
-    display: block;
-  }
-
   .date__fieldset {
     flex-direction: row;
     justify-content: space-between;
+
+  }
+
+  .date__fieldset:nth-child(1) {
+  margin-bottom: 42px;
+  }
+
+  .date__fieldset p {
+    flex: 0 1 300px;
+  }
+  .date__fieldset_w_280{
+    margin-bottom: 14px;
+  }
+  .date__label_wdth {
+    flex: 0 1 300px;
   }
 
   .date-time {
     gap: 14px;
-  }
-
-  .date__orige {
-    display: none;
-  }
-
-  .date__duble {
-    display: block;
-  }
-
-
-  .date__block {
-    display: flex;
-    align-items: start;
+    margin-bottom: 0;
+    flex: 0 1 300px;
   }
 
   .date__fieldset {
     display: flex;
-    flex-direction: column;
-  }
-
-  .date-time {
-    margin-bottom: 0;
+    
   }
 
   .date__input {
@@ -418,7 +417,7 @@ input[type="checkbox"] {
 }
 
 
-@media (max-width: 555px) {
+@media (max-width: 500px) {
   .container {
     padding: 0 20px;
   }
@@ -427,7 +426,13 @@ input[type="checkbox"] {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-
+  .date__fieldset:nth-child(2), 
+  .date__fieldset:nth-child(3) {
+    flex-direction: column;
+  }
+  .date__fieldset p {
+    flex: 0 1 0px;
+}
   .reserve__title {
     margin-bottom: 13px;
   }
@@ -456,18 +461,23 @@ input[type="checkbox"] {
     flex-direction: column;
     row-gap: 25px;
   }
+
   .date__duble {
     display: none;
-}
-.date__orige {
-  display: block;
-}
-.date__fieldset_w_280{
-  margin-bottom: 35px;
-}
-.date {
-  margin-bottom: 35px;
-}
+  }
+
+  .date__orige {
+    display: block;
+  }
+
+  .date__fieldset_w_280 {
+    margin-bottom: 35px;
+  }
+
+  .date {
+    margin-bottom: 35px;
+  }
+
   .hall__label {
     font-size: 14px;
     line-height: 1.28571;

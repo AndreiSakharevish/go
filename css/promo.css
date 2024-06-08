@@ -110,8 +110,6 @@
   }
 
   .promo__title {
-    font-size: 24px;
-    line-height: 1.5;
     max-width: 528px;
     margin-bottom: 30px;
   }
@@ -133,9 +131,9 @@
   }
 
   .promo__text {
-       max-width: 292px;
+    max-width: 292px;
     padding: 133px 14px 0;
-}
+  }
 }
 
 @media (max-width: 320px) {}
