@@ -35,14 +35,12 @@ input[type="checkbox"] {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.16667;
-}
-
-.legend__title {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.legend__subtitle {
+
+.legend_subtitle {
   margin-bottom: 23px;
 }
 
@@ -290,9 +288,6 @@ input[type="checkbox"] {
   background-color: var(--secondary-white-color);
 }
 
-/* .date__duble {
-  display: none;
-} */
 
 /* ------------------ */
 @media (max-width: 1024px) {
@@ -305,7 +300,7 @@ input[type="checkbox"] {
     margin-bottom: 25px;
   }
 
-  .legend__title {
+  .legend {
     margin-bottom: 26px;
   }
 
@@ -341,7 +336,7 @@ input[type="checkbox"] {
     margin-bottom: 40px;
   }
 
-  .legend__title {
+  .legend {
     margin-bottom: 30px;
   }
 
@@ -373,19 +368,20 @@ input[type="checkbox"] {
   .date__fieldset {
     flex-direction: row;
     justify-content: space-between;
-
   }
 
   .date__fieldset:nth-child(1) {
-  margin-bottom: 42px;
+    margin-bottom: 42px;
   }
 
   .date__fieldset p {
     flex: 0 1 300px;
   }
-  .date__fieldset_w_280{
+
+  .date__fieldset_w_280 {
     margin-bottom: 14px;
   }
+
   .date__label_wdth {
     flex: 0 1 300px;
   }
@@ -398,7 +394,6 @@ input[type="checkbox"] {
 
   .date__fieldset {
     display: flex;
-    
   }
 
   .date__input {
@@ -426,28 +421,29 @@ input[type="checkbox"] {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .date__fieldset:nth-child(2), 
+
+  .date__fieldset:nth-child(2),
   .date__fieldset:nth-child(3) {
     flex-direction: column;
   }
+
   .date__fieldset p {
     flex: 0 1 0px;
-}
+  }
+
   .reserve__title {
     margin-bottom: 13px;
   }
 
-  .legend__title {
+  .legend {
     margin-bottom: 15px;
     font-size: 14px;
     line-height: 1.28571;
   }
 
-  .legend__subtitle {
+  .legend_subtitle {
     margin-bottom: 15px;
-    font-size: 14px;
-    line-height: 1.28571;
-  }
+      }
 
   .set__span {
     font-size: 16px;
@@ -494,12 +490,9 @@ input[type="checkbox"] {
     margin-bottom: 29px;
   }
 
-
-
   .form__button {
     font-size: 18px;
     line-height: 1.44444;
     padding: 17px 59px;
   }
-
 }

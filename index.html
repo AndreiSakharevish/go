@@ -12,7 +12,7 @@
     <header class="header">
       <div class="container">
         <nav class="header__nav">
-          <button class="header-room__burger"><span></span><span></span><span></span></button>
+          <button class="burger"><span></span><span></span><span></span></button>
           <div class="header__picture"><img class="header__img" src="img/logo-header.svg" alt="Логотип GO" /></div>
           <ul class="header__list">
             <li><a class="header__link" href="#halls">Залы</a></li>
@@ -21,7 +21,7 @@
             <li><a class="header__link" href="#reviews">Отзывы</a></li>
             <li><a class="header__link" href="#contacts">Контакты</a></li>
           </ul>
-          <button class="header__button" href="#">Заказать звонок</button>
+          <button class="header__button">Заказать звонок</button>
         </nav>
       </div>
     </header>
@@ -108,7 +108,7 @@
           <h2 class="reserve__title title">Забронировать зал просто</h2>
           <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
             <fieldset class="reserve__fieldset hall">
-              <legend class="legend legend__title">Выбери зал</legend>
+              <legend class="legend">Выбери зал</legend>
               <input class="hall__input" id="halls__vibes" type="radio" name="room" value="vibes" />
               <label class="hall__label" for="halls__vibes" tabindex="0">80's vibes</label>
               <input class="hall__input" id="halls__wars" type="radio" name="room" value="star" />
@@ -120,11 +120,11 @@
             </fieldset>
             <div class="form__block">
               <fieldset class="reserve__fieldset set">
-                <legend class="legend legend__title">Собери набор развлечений</legend>
+                <legend class="legend">Собери набор развлечений</legend>
 
                 <div class="set__block">
                   <fieldset class="set__fieldset">
-                    <legend class="legend legend__subtitle">Приставка:</legend>
+                    <legend class="legend legend_subtitle">Приставка:</legend>
                     <label class="set__label"> <input class="set__input" type="radio" name="console" value="play" /><span class="set__span">PlayStation 5</span></label>
                     <label class="set__label"> <input class="set__input" type="radio" name="console" value="sega" /><span class="set__span">Sega Mega Drive</span></label>
                     <label class="set__label"> <input class="set__input" type="radio" name="console" value="xbox" /><span class="set__span">X-box One S</span></label>
@@ -132,7 +132,7 @@
                   </fieldset>
 
                   <fieldset class="set__fieldset">
-                    <legend class="legend legend__subtitle">Настольные игры:</legend>
+                    <legend class="legend legend_subtitle">Настольные игры:</legend>
                     <label class="set__game-label"><input class="set__game-input" type="checkbox" name="game" value="jenga" />Jenga</label>
                     <label class="set__game-label"><input class="set__game-input" type="checkbox" name="game" value="monopoly" />Monopoly</label>
                     <label class="set__game-label"><input class="set__game-input" type="checkbox" name="game" value="manchkin" />Манчкин</label>
@@ -140,7 +140,7 @@
                   </fieldset>
 
                   <fieldset class="set__fieldset">
-                    <legend class="legend legend__subtitle">Дополнительно:</legend>
+                    <legend class="legend legend_subtitle">Дополнительно:</legend>
                     <label class="set__game-label"><input class="set__game-input" type="checkbox" name="extra" value="karaoke" />Караоке</label>
                     <label class="set__game-label"><input class="set__game-input" type="checkbox" name="extra" value="vr" />VR</label>
                   </fieldset>
@@ -148,7 +148,7 @@
               </fieldset>
 
               <fieldset class="date">
-                <legend class="legend legend__title">Выбери дату и время</legend>
+                <legend class="legend">Выбери дату и время</legend>
 
                 <div class="date__block">
                   <fieldset class="date__fieldset">

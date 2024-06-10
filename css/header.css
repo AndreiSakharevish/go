@@ -11,7 +11,7 @@
  width: 100%;
   object-fit: cover;
 }
-.header-room__burger{
+.burger{
   display: none;
 }
 .header__list {
@@ -91,7 +91,7 @@
   .header__list {
     display: none;
   }
-  .header-room__burger{
+  .burger{
     display: block;
   }
 }
