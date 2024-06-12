@@ -37,12 +37,12 @@
 }
 
 .halls__item {
-  flex: 0 1 580px;
+  max-width: 580px;
   text-align: center;
 }
 
 .halls__item_vibes {
-  background: url("../img/80vibes.jpg") no-repeat;
+  background: url("../img/80vibes.jpg") 0 0 no-repeat;
 }
 
 .halls__item_star {
@@ -68,6 +68,10 @@
     padding-bottom: 70px;
   }
 
+  .halls__item {
+    max-width: 443px;
+  }
+
   .halls__title {
     margin-bottom: 36px;
   }
@@ -84,6 +88,10 @@
   .halls {
     padding-top: 30px;
     padding-bottom: 62px;
+  }
+
+  .halls__item {
+    max-width: 335px;
   }
 
   .halls__title {
@@ -105,6 +113,10 @@
 
   .halls__title {
     margin-bottom: 15px;
+  }
+
+  .halls__item {
+    max-width: 280px;
   }
 
   .halls__link {

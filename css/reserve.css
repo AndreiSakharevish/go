@@ -306,6 +306,7 @@ input[type="checkbox"] {
 
   .hall {
     gap: 40px;
+    justify-content: space-between;
   }
 
   .hall__label {
