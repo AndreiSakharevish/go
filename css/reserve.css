@@ -222,6 +222,10 @@ input[type="checkbox"] {
   display: block;
 }
 
+.date__label_w {
+  width: calc(50% - 16px);
+}
+
 .date__label_mb {
   margin-bottom: 6px;
 }
@@ -430,6 +434,12 @@ input[type="checkbox"] {
 
   .date__fieldset p {
     flex: 0 1 0px;
+    margin-bottom: 15px;
+  }
+
+  .date__fieldset {
+    /* display: block; */
+    flex-direction: column;
   }
 
   .reserve__title {
@@ -444,7 +454,7 @@ input[type="checkbox"] {
 
   .legend_subtitle {
     margin-bottom: 15px;
-      }
+  }
 
   .set__span {
     font-size: 16px;
@@ -467,8 +477,24 @@ input[type="checkbox"] {
     display: block;
   }
 
+  .date__input::placeholder {
+    font-size: 14px;
+  }
+
+  .date__label_w {
+    width: calc(50% - 7px);
+  }
+
   .date__fieldset_w_280 {
     margin-bottom: 35px;
+  }
+
+  .date-time {
+    flex-basis: 0;
+  }
+
+  .date__label_wdth {
+    flex-basis: 0;
   }
 
   .date {

@@ -100,7 +100,9 @@
   .header__button {
     display: none;
   }
-
+  .header__picture {
+    flex: 0 1 66px;
+}
   .header__img {
     max-width: 66px;
   }
